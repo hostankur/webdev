@@ -25,3 +25,9 @@ p  { color: green;
   border: 20px solid #000;
   margin: 10px;
 }
+article p   { font-style: italic; }  /* Both paragraphs → italic */
+article > p { color: green; }        /* Only the FIRST paragraph → green */
+
+input[type="text password"] {
+  border: 1px solid red;
+}
