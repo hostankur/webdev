@@ -1,8 +1,11 @@
 .container {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   gap: 10px;
   background-color: blue;
+  height: 900px;
+
   
 }
 
