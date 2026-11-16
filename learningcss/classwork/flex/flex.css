@@ -4,7 +4,10 @@
   flex-wrap: wrap;
   gap: 10px;
   background-color: blue;
-  width: 375px;
+  
+  
+  justify-content: start;
+    align-items: baseline;
 
   
 }
@@ -14,6 +17,6 @@
   width: 100px;
   margin: 10px;
   padding: 10px;
-  text-align: center;  
+  text-align: centqer;  
   font-size: 30px;
 }
