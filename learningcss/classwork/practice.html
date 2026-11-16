@@ -5,41 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .div1{
-            background-color:blue;
-            width: 500px;
-            height: 400px  ;
-            position: relative;
-            border-radius: 5%;
-            text-align: center;
-            color: aliceblue;
+        
+        .container {
+        height: 400px;
+        width: 500px;
+        border: 2px solid black;
+        position: relative;
 
+       
 
-        }
-        .div2{
-            background-color: chartreuse;
-            width: 200px;
-            height: 200px;
+        .top-left{
             position: absolute;
-            bottom: 0;
-            left: 0;
-            border-radius: 5%;
-            color: black;
+            top: 0%;
+            left: 0%;
 
 
         }
+        .top-right{
+            top: 0%;
+            right: 0%;
+            position: absolute;
+        }
+        .bottom-left{
+            position: absolute;
+            bottom: 0%;
+            left: 0%;
+        }
+        .bottom-right{
+            position: absolute;
+            bottom: 0%;
+            right: 0%;
+        }
+}
     </style>
 </head>
 <body>
-    <div class="div1">
-                        div 1<br>
-                        <br>
-                        Web dev revision project
-                   
+   
+    <div class="container">
+        <p class="top-left">Ankur Roy</p>
 
-        <div class="div2">
-            div 2
-        </div>
+        <p class="top-right">Ankur Roy</p>
+        <p class="bottom-left">Ankur Roy</p>
+        <p class="bottom-right">Ankur Roy</p>
+  </div>
     </div>
+    
 </body>
 </html>
