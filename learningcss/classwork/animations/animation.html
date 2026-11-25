@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .classty{
+            width: 10px;
+            height: 10px;
+            background-color: brown;
+            animation-name: myanimation;
+            animation-duration: 10s;
+            position: relative;
+            
+
+
+
+        }
+        .myclass{
+            font-size: medium;
+            text-align: center;
+            border:10px;
+            padding: 10px;
+            border-color: black;
+
+
+
+
+        }
+        .plane {
+            width: 150px;
+            height: auto;
+        }
+        .heppy{
+            background-image: url(bg.png);
+        }
+        @keyframes myanimation{
+             0%   {background-color:red; left:0px; top:700px;}
+             10%   {background-color:red; left:10px; top:90%;}
+             20%   {background-color:red; left:20%; top: 80%;}
+             30%   {background-color:red; left:30%; top: 70%}
+             40%   {background-color:red; left:40%; top: 60%}
+             50%  {background-color:yellow; left:50%; top:50%}
+             60%  {background-color:blue; left:40%; top:40%;}
+            70%  {background-color:green; left:30%; top:30%;}
+            80% {background-color:red; left:20%; top:20%;}
+            90% {background-color:red; left:10%; top:10%;}
+            100% {background-color:red; left:0%; top:0%;}
+        }
+    </style>
+</head>
+<body class="heppy">
+    <div class="classty"><img src="image.png" alt="Description of image" class="plane"></div>
+    
+        
+    
+    
+</body>
+</html>
